@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try to Talwindcss</title>
+    <link rel="stylesheet" href="talwind.css">
+    <style>
+        ::selection{
+            background: rgb(161, 78, 78);
+            color: white;
+        }
+    </style>
+</head>
+<body class='bg-yellow-100 p-10 font-mono'>
+
+    <p class='px-4 py-2 bg-blue-600 text-white rounded underline text-md'>This is link</p>
+
+    <input type="text" class="bg-white-100 p-2 rounded shadow-md outline-none focus:ring-2 focus:ring-yellow-700 focus:shadow-lg" placeholder="Focus me">
+
+    <button class="bg-red-500 hover:bg-red-700 p-2 px-4 rounded text-white-700">Hover Me</button>
+
+    <button class='bg-green-500 active:bg-green-700 p-2 ml-4 rounded text-gray-700'>Click me</button>
+
+
+    <!-- create a card -->
+    <div class="p-8 w-content border-indigo-500 group hover:bg-white hover:shadow-lg shadow-md">
+        <h3>New Card</h3>
+        <p>Create a new project from a variety of starting templates</p>
+    </div>
+
+
+    <!-- use the container class -->
+
+    <div class="container mx-auto mt-4">
+        <h1>This is the container class</h1>
+    </div>
+
+    <!-- use the flex in talwindcss -->
+    <div class="flex bg-gray-600 mt-4 p-4 flex-col py-6 space-y-6 sm:grid sm:grid-cols-3 sm:gap-4">
+        <div class="p-2 bg-white border rounded">
+            <h1>This is the First Card</h1>
+        </div>
+    
+        <div class="p-2 bg-white border rounded">
+            <h1>This is the Second Card</h1>
+        </div>
+
+        <div class="p-2 bg-white border rounded">
+            <h1>This is the Third Card</h1>
+        </div>
+    </div>
+
+        <div class="flex bg-gray-600 mt-4 p-2 space-y-6 space-x-4 flex-wrap">
+            <div class="p-2 bg-white border rounded flex-grow">
+                <h1>This is the First Card</h1>
+            </div>
+        
+            <div class="p-2 bg-white border rounded">
+                <h1>This is the Second Card</h1>
+            </div>
+        
+            <div class="p-2 bg-white border rounded">
+                <h1>This is the Third Card</h1>
+            </div>
+        </div>
+
+
+    <!-- another example -->
+    <div class=" h-32 w-32 p-4 border-4">
+        <h1>Hello</h1>
+    </div>
+
+    <!-- use talwindcss -->
+
+    <!-- <div class="block">
+        <div class="float-right">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis et lorem sit amet vehicula. Etiam vel nibh nec
+            nisi euismod mollis ultrices condimentum velit. Proin velit libero, interdum ac rhoncus sit amet, pellentesque ac
+            turpis. Quisque ac luctus turpis, vel efficitur ante. Cras convallis risus vel vehicula dapibus. Donec eget neque
+            fringilla, faucibus mi quis, porttitor magna. Cras pellentesque leo est, et luctus neque rutrum eu. Aliquam consequat
+            velit sed sem posuere, vitae sollicitudin mi consequat. Mauris eget ipsum sed dui rutrum fringilla. Donec varius
+            vehicula magna sit amet auctor. Ut congue vehicula lectus in blandit. Vivamus suscipit eleifend turpis, nec sodales sem
+            vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.
+        </div>
+
+        <div class="float-left">
+            <h2>This is the float right</h2>
+            <h1>Okk Faysal Mridha</h1>
+        </div>
+    </div> -->
+
+
+    <!-- use the display grid -->
+    <div class="grid grid-cols-3 gap-4 text-white">
+        <div class="bg-blue-600 col-span-2 text-center">1</div>
+        <div class="bg-blue-500 text-center">2</div>
+        <div class="bg-blue-300 text-center">3</div>
+        <div class="bg-blue-600 col-span-3 text-center">4</div>
+        <div class="bg-blue-500 text-center">5</div>
+        <div class="bg-blue-300 text-center">6</div>
+        <div class="col-span-2 bg-blue-300 text-center">7</div>
+    </div>
+
+
+    <!-- try to use width -->
+
+    <div class="flex mt-4">
+        <div class="w-1/2 bg-rose-200 ">w-1/2</div>
+        <div class="w-1/2 bg-rose-500 ">w-1/2</div>
+    </div>
+    <div class="flex ...">
+        <div class="w-2/5 ...">w-2/5</div>
+        <div class="w-3/5 ...">w-3/5</div>
+    </div>
+    <div class="flex ...">
+        <div class="w-1/3 ...">w-1/3</div>
+        <div class="w-2/3 ...">w-2/3</div>
+    </div>
+    <div class="flex ...">
+        <div class="w-1/4 ...">w-1/4</div>
+        <div class="w-3/4 ...">w-3/4</div>
+    </div>
+    <div class="flex ...">
+        <div class="w-1/5 ...">w-1/5</div>
+        <div class="w-4/5 ...">w-4/5</div>
+    </div>
+    <div class="flex ...">
+        <div class="w-1/6 ...">w-1/6</div>
+        <div class="w-5/6 ...">w-5/6</div>
+    </div>
+    <div class="w-full ...">w-full</div>
+
+
+    <!-- this is for the font size -->
+    <h1 class='mt-4 text-6xl italic tracking-wider'>This is for font size chek</h1>
+
+    <p class='mt-4 text-2xl text-green-500 tracking-widest leading-10'>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi est veniam, nam quibusdam, neque earum consectetur expedita beatae inventore impedit. Quae totam asperiores quod aut mollitia possimus aspernatur alias.
+    </p>
+
+
+<!-- this is for the divider -->
+<div class="grid grid-cols-1 divide-y divide-green-500">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<!-- this is for the ring -->
+<button class="p-4 px-6 bg-blue-600 rounded-md ring-0">ring-0</button>
+<button class="p-4 px-6 bg-blue-600 rounded-md ring-2 ring-yellow-700">ring-2</button>
+<button class="p-4 px-6 bg-blue-600 rounded-md ring ring-gray-500">ring</button>
+<button class="p-4 px-6 bg-blue-600 rounded-md ring-4">ring-4</button>
+
+<h1 class='text-yellow-300 animate-bounce text-4xl mt-6'>Fm</h1>
+
+
+<!-- for use transforma -->
+<div class="transform hover:scale-150 cursor-not-allowed">
+    <h1>Hello This is for the transform</h1>
+</div>
+
+
+
+</body>
+</html>

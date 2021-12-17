@@ -1,0 +1,15 @@
+{
+  "name": "talwindcss-with-documentaion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/style.css -o public/talwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
